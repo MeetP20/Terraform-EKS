@@ -1,0 +1,18 @@
+# Local .terraform directories
+.terraform/*
+
+# Terraform lock file (Terraform 0.14+)
+.terraform.lock.hcl
+
+# Crash log files
+terraform.tfstate
+terraform.tfstate.backup
+# Ignore any file containing potentially sensitive information
+steps.txt
+
+# Ignore plan output files
+*.tfplan
+
+# Ignore generated files from Terraform providers
+.terraformrc
+.terraform.d
